@@ -6,7 +6,7 @@ public class DosenDemo25 {
         Dosen25[] arrayOfaDosen25 = new Dosen25[3];
         String dummy;
 
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < arrayOfaDosen25.length; i++) {
             arrayOfaDosen25[i] = new Dosen25(null, null, false, 0);
 
             System.out.println("Masukan Data Dosen ke-" + (i + 1));
